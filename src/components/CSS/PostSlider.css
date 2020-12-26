@@ -1,0 +1,22 @@
+.swiper-container {
+  width: 850px;
+  height: 450px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+  color: var(--main-color) !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next:after {
+  font-size: 24px !important;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper-container {
+    width: 630px;
+  }
+}

@@ -1,0 +1,72 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;900&display=swap");
+/* Variable Setting */
+:root {
+  --main-color: #4e8fc6;
+  --index-bg-color: #214869;
+  --main-gray: #f0f0f0;
+  --font-gray: #999999;
+}
+
+/* Basic CSS setting */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+* button:focus {
+  outline: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./img/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background: var(--index-bg-color); */
+}
+
+.wrap {
+  margin-top: -50px;
+  width: 1128px;
+  height: 643px;
+
+  box-shadow: 5px 45px 30px rgba(21, 32, 95, 1);
+}
+
+.main {
+  overflow-y: auto;
+}
+
+.main::-webkit-scrollbar {
+  /* 스크롤바 전체 */
+  width: 5px;
+  height: 15px;
+}
+
+.main::-webkit-scrollbar-thumb {
+  /* 스크롤바 막대 */
+  background: var(--main-color);
+  border-radius: 15px;
+}
+.main::-webkit-scrollbar-track {
+  /* 스크롤바 막대외부 */
+  background-color: transparent;
+}
+
+/* 태블릿 */
+@media screen and (max-width: 1024px) {
+  .wrap {
+    width: 750px;
+  }
+}

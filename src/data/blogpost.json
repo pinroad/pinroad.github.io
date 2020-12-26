@@ -1,0 +1,53 @@
+{
+  "data" : [
+    {
+      "id" : 1,
+      "category" : "RETROSPEC",
+      "title" : "프리코스 완주 회고",
+      "createdAt" : "2020-08-22",
+      "summary" : "PRE코스를 진행하면서 아주 유용하게 사용했던 만년자석달력.벌써 절반 이상을 지우고 SoloWeek만 남겨두고 있다. PRE 코스를 시작하면서 이 달력에 늘 반복해야할 것(시프티 출석(S), 블로깅(Velog의 V)을 기본적으로 적어두고, ",
+      "postlink" : "https://velog.io/@leobit/Lv1.%ED%94%84%EB%A6%AC%EC%BD%94%EC%8A%A4-%EC%99%84%EC%A3%BC-%ED%9A%8C%EA%B3%A0"
+    },    
+    {
+      "id" : 2,
+      "category" : "RETROSPEC",
+      "title" : "내 생애 첫 프로젝트 후기",
+      "createdAt" : "2020-11-22",
+      "summary" : "취향이 비슷한 사람들과 함께 영화에 대해 정보를 공유하고 모임을 만들 수 있는 공간을 제공하자는 취지에서 해당 프로젝트를 진행하게 되었다.",
+      "postlink" : "https://velog.io/@leobit/%EB%82%B4-%EC%83%9D%EC%95%A0-%EC%B2%AB-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9B%84%EA%B8%B0"
+    },    
+    {
+      "id" : 3,
+      "category" : "RETROSPEC",
+      "title" : "코드스테이츠 기업 협업 4주 프로젝트 후기",
+      "createdAt" : "2020-12-21",
+      "summary" : "수강생들과 함께하는 프로젝트 외에 코드스테이츠에는 기업협업 프로젝트가 존재한다. 기업협업 프로젝트에 대해 내용을 듣고 어떤 프로젝트로 4주를 진행할지 결정하면 되는데 나는 기업에서 제시한 협업 프로젝트를 내용을 듣고  해보고 싶다",
+      "postlink" : "https://velog.io/@leobit/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0-%EA%B8%B0%EC%97%85-%ED%98%91%EC%97%85-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9B%84%EA%B8%B0"
+    },
+    {
+      "id" : 4,
+      "category" : "TIL",
+      "title" : "HTTP 헤더와 Dev 툴 Network 탭 활용",
+      "createdAt" : "2020-09-25",
+      "summary" : "브라우저에서 어떤 주소(url)에 대해 엔터를 치고 실행을 하면, 해당 주소로 연결된 페이지가 뜨거나, 만약 페이지가 없다면 에러를 띄우게 된다. 브라우저가 이러한 일을 하기 위해 어떤 일을 거치는건지 확인해보자. ",
+      "postlink" : "https://velog.io/@leobit/HTTP-%ED%97%A4%EB%8D%94%EC%99%80-Dev-%ED%88%B4-Network-%ED%83%AD-%ED%99%9C%EC%9A%A9"
+    },
+        {
+      "id" : 5,
+      "category" : "TIL",
+      "title" : "RESTful API",
+      "createdAt" : "2020-09-27",
+      "summary" : "REST 는 Representational State Transfer의 약자로, 웹서비스를 만드는데 사용되는 제약(Constraint) 모음이다. 까다로운 조건들을 다 만족해서 만들면 'RESTful' 하다라고 한다. ",
+      "postlink" : "https://velog.io/@leobit/RESTful-API"
+    },
+        {
+      "id" : 6,
+      "category" : "TIL",
+      "title" : "Redux",
+      "createdAt" : "2020-10-15",
+      "summary" : "Redux 공식 홈에서는 자바스크립트 애플리케이션을 위한 '예측가능한 상태 컨테이너'(state container for JS) 라고 표현한다. 컴포넌트와 상태를 분리한다. 왜 분리를 할까? 관리해야할 상태가 컴포넌트에서 분리되면 Class 컴포넌트가 단순 함수 컴포넌트로 만들 수 있는 장점이 있기 때문이다.",
+      "postlink" : "https://velog.io/@leobit/Redux"
+    }
+    
+  ]
+}

@@ -1,0 +1,47 @@
+.menu ul li {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.menu ul a {
+  width: 200px;
+  padding: 0 10px 10px 20px;
+  margin-right: 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: var(--main-gray);
+}
+
+.menu ul a.active {
+  background-color: white;
+  font-weight: bold;
+  color: var(--main-color);
+  position: relative;
+}
+
+.menu ul a .spanActive {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  /* background-color: #4e8fc6; */
+  display: none;
+}
+
+.menu ul a .spanActive.show {
+  background-color: #4e8fc6;
+  display: block;
+}
+
+/* 태블릿 */
+@media screen and (max-width: 1024px) {
+  .menu ul a {
+    width: 130px;
+  }
+
+  .menu ul a .spanActive.show {
+    display: none;
+  }
+}
