@@ -1,3 +1,19 @@
+.menu .githubbox {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.menu .githubbox:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.menu .githubbox .githubPtag {
+  width: 95px;
+}
+
 .menu ul li {
   margin-top: 10px;
   font-size: 14px;
