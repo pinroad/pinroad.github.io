@@ -1,5 +1,5 @@
 /* font family */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;900&display=swap');
 /* Variable Setting */
 :root {
   --main-color: #4e8fc6;
@@ -16,7 +16,7 @@
   text-decoration: none;
   list-style-type: none;
   outline: none;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 * button:focus {
@@ -26,18 +26,19 @@
 body {
   width: 100vw;
   height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  background-image: url("./img/main.jpg");
+  align-items: center; */
+  background-image: url('./img/main.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
   /* background: var(--index-bg-color); */
 }
 
 .wrap {
-  margin-top: -50px;
+  margin-top: 120px;
   width: 1128px;
   height: 643px;
 
