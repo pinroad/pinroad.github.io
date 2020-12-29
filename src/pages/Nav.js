@@ -37,7 +37,7 @@ function Nav(props) {
         <div className="ml-2 pr-2 border-r">
           <SiGithub size={20} />
         </div>
-        <p className="githubPtag">GitHub</p>
+        <p className="githubPtag">깃허브</p>
       </button>
     </div>
   );
