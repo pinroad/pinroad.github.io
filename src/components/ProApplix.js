@@ -1,24 +1,17 @@
-import React from "react";
-import "./CSS/ProCommon.css";
-import { BiBookmark, BiCodeBlock, BiCog, BiTask } from "react-icons/bi";
-import thum02 from "../img/thum_02.png";
+import React from 'react';
+import './CSS/ProCommon.css';
+import { BiBookmark, BiCodeBlock, BiCog, BiTask } from 'react-icons/bi';
+import thum02 from '../img/thum_02.png';
 
 function P_applix({ handlePrev }) {
-  const linkToDemo = () => {
-    window.open(
-      "http://applix-client.s3-website.ap-northeast-2.amazonaws.com/",
-      "_blank"
-    );
-  };
-
   const linkToGithub = () => {
-    window.open("https://github.com/codestates/16-applix-client", "_blank");
+    window.open('https://github.com/codestates/16-applix-client', '_blank');
   };
 
   const linkToBlog = () => {
     window.open(
-      "https://velog.io/@leobit/%EB%82%B4-%EC%83%9D%EC%95%A0-%EC%B2%AB-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9B%84%EA%B8%B0",
-      "_blank"
+      'https://velog.io/@leobit/%EB%82%B4-%EC%83%9D%EC%95%A0-%EC%B2%AB-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9B%84%EA%B8%B0',
+      '_blank'
     );
   };
 
@@ -30,9 +23,6 @@ function P_applix({ handlePrev }) {
       <p className="date">2020.11 - 2주 프로젝트</p>
       <hr />
       <img src={thum02} alt="thumnail" />
-      <button className="mr-8" onClick={linkToDemo}>
-        데모
-      </button>
       <button className="mb-4" onClick={linkToGithub}>
         깃허브
       </button>
