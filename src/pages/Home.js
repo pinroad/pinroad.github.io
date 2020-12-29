@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./CSS/Home.css";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './CSS/Home.css';
 //images
-import front from "../img/browser_icon-icons.com_66536.png";
-import back from "../img/database_icon-icons.com_66531.png";
-import common from "../img/desktop_icon-icons.com_66537.png";
-import pro01 from "../img/p01_logo.png";
-import pro02 from "../img/p02_logo.png";
+import front from '../img/browser_icon-icons.com_66536.png';
+import back from '../img/database_icon-icons.com_66531.png';
+import common from '../img/desktop_icon-icons.com_66537.png';
+import pro01 from '../img/p01_logo.png';
+import pro02 from '../img/p02_logo.png';
 //silder
-import PostSlider from "../components/PostSlider";
-import postdata from "../data/blogpost.json";
+import PostSlider from '../components/PostSlider';
+import postdata from '../data/blogpost.json';
 
 function Home(props) {
   let postArr = postdata.data;
@@ -24,7 +24,7 @@ function Home(props) {
   const [postData, setPostData] = useState(sortArr);
 
   const linkToBlog = () => {
-    window.open("https://velog.io/@leobit", "_blank");
+    window.open('https://velog.io/@leobit', '_blank');
   };
 
   return (
@@ -66,7 +66,7 @@ function Home(props) {
         </p>
         <div className="projectset w-full inline-flex flex-wrap items-center mt-10">
           <div className="projectbox flex justify-center items-center">
-            <img src={pro01} alt="finalproject" style={{ width: "250px" }} />
+            <img src={pro01} alt="finalproject" style={{ width: '250px' }} />
             <span className="pro_caption flex flex-col justify-end items-end pr-6 pb-6">
               <p>
                 기업협업
@@ -85,7 +85,7 @@ function Home(props) {
             </span>
           </div>
           <div className="projectbox flex justify-center items-center">
-            <img src={pro02} alt="finalproject" style={{ width: "250px" }} />
+            <img src={pro02} alt="firstproject" style={{ width: '250px' }} />
             <span className="pro_caption flex flex-col justify-end items-end pr-6 pb-6">
               <p>2주 팀 프로젝트 </p>
               <p>
