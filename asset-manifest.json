@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.e895738a.chunk.css",
-    "main.js": "/static/js/main.d274794a.chunk.js",
-    "main.js.map": "/static/js/main.d274794a.chunk.js.map",
+    "main.css": "/static/css/main.eb90c969.chunk.css",
+    "main.js": "/static/js/main.b3e72945.chunk.js",
+    "main.js.map": "/static/js/main.b3e72945.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/css/2.67810363.chunk.css": "/static/css/2.67810363.chunk.css",
-    "static/js/2.1036c02c.chunk.js": "/static/js/2.1036c02c.chunk.js",
-    "static/js/2.1036c02c.chunk.js.map": "/static/js/2.1036c02c.chunk.js.map",
+    "static/js/2.21176812.chunk.js": "/static/js/2.21176812.chunk.js",
+    "static/js/2.21176812.chunk.js.map": "/static/js/2.21176812.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.67810363.chunk.css.map": "/static/css/2.67810363.chunk.css.map",
-    "static/css/main.e895738a.chunk.css.map": "/static/css/main.e895738a.chunk.css.map",
-    "static/js/2.1036c02c.chunk.js.LICENSE.txt": "/static/js/2.1036c02c.chunk.js.LICENSE.txt",
+    "static/css/main.eb90c969.chunk.css.map": "/static/css/main.eb90c969.chunk.css.map",
+    "static/js/2.21176812.chunk.js.LICENSE.txt": "/static/js/2.21176812.chunk.js.LICENSE.txt",
     "static/media/blog_retro.d335bd19.jpg": "/static/media/blog_retro.d335bd19.jpg",
     "static/media/browser_icon-icons.com_66536.c5b367d7.png": "/static/media/browser_icon-icons.com_66536.c5b367d7.png",
     "static/media/database_icon-icons.com_66531.e0be151f.png": "/static/media/database_icon-icons.com_66531.e0be151f.png",
     "static/media/desktop_icon-icons.com_66537.e1c4064a.png": "/static/media/desktop_icon-icons.com_66537.e1c4064a.png",
-    "static/media/App.css": "/static/media/main.c3cee4ab.jpg",
+    "static/media/App.css": "/static/media/main.da8ed2ff.jpg",
     "static/media/p02_logo.91b2a6a7.png": "/static/media/p02_logo.91b2a6a7.png",
     "static/media/thum_01.be7d1ff3.png": "/static/media/thum_01.be7d1ff3.png",
     "static/media/thum_02.f0a55c51.png": "/static/media/thum_02.f0a55c51.png",
-    "static/media/thum_03.22dafbc6.png": "/static/media/thum_03.22dafbc6.png",
+    "static/media/thum_03.4817e100.png": "/static/media/thum_03.4817e100.png",
     "static/media/tilblog.38b8255c.jpg": "/static/media/tilblog.38b8255c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/css/2.67810363.chunk.css",
-    "static/js/2.1036c02c.chunk.js",
-    "static/css/main.e895738a.chunk.css",
-    "static/js/main.d274794a.chunk.js"
+    "static/js/2.21176812.chunk.js",
+    "static/css/main.eb90c969.chunk.css",
+    "static/js/main.b3e72945.chunk.js"
   ]
 }
