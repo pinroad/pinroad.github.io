@@ -1,7 +1,7 @@
-import React from "react";
-import "./CSS/ProCommon.css";
-import { BiCodeBlock, BiCog, BiTask } from "react-icons/bi";
-import thum03 from "../img/thum_03.png";
+import React from 'react';
+import './CSS/ProCommon.css';
+import { BiCodeBlock, BiCog, BiTask } from 'react-icons/bi';
+import thum03 from '../img/thum_03.png';
 
 function P_personal({ handlePrev }) {
   return (
@@ -32,7 +32,6 @@ function P_personal({ handlePrev }) {
           <span className="ml-1"> 작업내용</span>
         </h2>
         <p>· UI 디자인 설계 </p>
-        <p>· 반응형 웹 구현 진행 중</p>
         <hr />
         <button onClick={handlePrev}>목록으로</button>
       </section>

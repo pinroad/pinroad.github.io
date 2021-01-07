@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./CSS/Resume.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './CSS/Resume.css';
 //images;
-import front from "../img/browser_icon-icons.com_66536.png";
-import back from "../img/database_icon-icons.com_66531.png";
-import common from "../img/desktop_icon-icons.com_66537.png";
+import front from '../img/browser_icon-icons.com_66536.png';
+import back from '../img/database_icon-icons.com_66531.png';
+import common from '../img/desktop_icon-icons.com_66537.png';
 //icons;
 import {
   SiNotion,
@@ -14,47 +14,30 @@ import {
   SiReact,
   SiRedux,
   SiPostman,
-} from "react-icons/si";
-import { AiFillHtml5 } from "react-icons/ai";
-import { GrMysql, GrDocumentPdf } from "react-icons/gr";
-import { IoLogoNodejs } from "react-icons/io";
-import { FaGitSquare, FaUbuntu, FaAws } from "react-icons/fa";
+} from 'react-icons/si';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { GrMysql, GrDocumentPdf } from 'react-icons/gr';
+import { IoLogoNodejs } from 'react-icons/io';
+import { FaGitSquare, FaUbuntu, FaAws } from 'react-icons/fa';
 
 function Resume(props) {
   return (
     <div className="introinner">
       <div className="resumeArea flex flex-col justify-end">
-        <div className="inline-flex items-center w-full">
-          {/* <Link
-            to={{
-              pathname:
-                "https://www.notion.so/376bda7ac4cd4f4781cf5cc72100ec7a",
-            }}
-            target="_blank"
-            style={{
-              width: "100%",
-            }}
-          >
-            <div className="notionresume  w-full inline-flex items-center cursor-pointer">
-              <SiNotion size={20} style={{ marginRight: "10px" }} />
-              노션 이력서
-            </div>
-          </Link> */}
-        </div>
         <Link
           to={{
             pathname:
-              " https://drive.google.com/file/d/1rAMj_XrZBHH0VNay9yIwgSfbZ3bhNiOz/view?usp=sharing",
+              ' https://drive.google.com/file/d/1rAMj_XrZBHH0VNay9yIwgSfbZ3bhNiOz/view?usp=sharing',
           }}
           target="_blank"
           style={{
-            width: "100%",
+            width: '100%',
           }}
         >
           <div className="notionresume  w-full inline-flex items-center cursor-pointer pt-2">
             <GrDocumentPdf
               size={20}
-              style={{ marginRight: "10px", color: "var(--main-color)" }}
+              style={{ marginRight: '10px', color: 'var(--main-color)' }}
             />
             이력서 다운
           </div>
@@ -67,10 +50,12 @@ function Resume(props) {
           평소 자바스크립트를 이용한 UI 개발에 관심이 많아 개발 공부를
           시작했습니다. <br />
           <br />
-          국비 지원 웹 개발 단과 과정과 공부 방법을 찾아가며 나 홀로 스터디를
-          진행하다 20주 웹 개발 부트캠프인 코드스테이츠를 수료했습니다. 수료
-          이후 부트캠프에서 다뤘던 프로젝트 리팩토링 및 사이드 프로젝트를
-          진행하기 위해 Redux 와 다양한 CSS 라이브러리를 공부하고 있습니다.
+          HTML & CSS 를 이용한 반응형 웹 개발 단과 과정과 공부 방법을 찾아가며
+          나 홀로 스터디를 진행하다 20주 웹 개발 부트캠프인 코드스테이츠를
+          수료했습니다.
+          <br />
+          부트캠프에서 다뤘던 프로젝트 리팩토링 및 토이 프로젝트를 진행하기 위해
+          꾸준히 공부하고 있습니다.
           <br />
           <br /> 항상 배운 것을 블로깅을 통해 되새기고 개선해나갈 수 있는 방향을
           스스로 찾아가며, 끊임없이 발전해나가는 개발자가 되기 위해 노력합니다.
@@ -143,8 +128,8 @@ function Resume(props) {
                     TypeScript
                     <span
                       style={{
-                        color: "tomato",
-                        paddingLeft: "5px",
+                        color: 'tomato',
+                        paddingLeft: '5px',
                       }}
                     >
                       기초
@@ -159,11 +144,11 @@ function Resume(props) {
                 </div>
                 <div className="flex flex-col w-full">
                   <p>
-                    Redux{" "}
+                    Redux{' '}
                     <span
                       style={{
-                        color: "tomato",
-                        paddingLeft: "5px",
+                        color: 'tomato',
+                        paddingLeft: '5px',
                       }}
                     >
                       기초
